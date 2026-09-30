@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini Taskboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>Mini Taskboard</h1>
+
+  <form id="task-form" class="task-form">
+    <label for="task-title">Neue Aufgabe</label>
+    <input type="text" id="task-title" name="title" placeholder="Titel der Aufgabe">
+    <button type="submit">Anlegen</button>
+  </form>
+
+  <main class="board">
+    <section class="column" data-status="open">
+      <h2>Offen</h2>
+      <ul class="task-list"></ul>
+    </section>
+
+    <section class="column" data-status="in-progress">
+      <h2>In Bearbeitung</h2>
+      <ul class="task-list"></ul>
+    </section>
+
+    <section class="column" data-status="done">
+      <h2>Erledigt</h2>
+      <ul class="task-list"></ul>
+    </section>
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
