@@ -25,5 +25,6 @@ Nutze die `README.md` als fachlichen Kontext für das Projekt.
 - Akzeptanzkriterien sollen konkret, überprüfbar und möglichst technologieunabhängig sein.
 - Trenne fachliche Anforderungen von technischen Implementierungsdetails.
 - Wenn Anforderungen unklar sind, benenne die Unklarheit statt sie stillschweigend zu erfinden.
+
 - ## Claude Ignore
 ignoriere das PDF learning/Ablauf-Taskboard.pdf 

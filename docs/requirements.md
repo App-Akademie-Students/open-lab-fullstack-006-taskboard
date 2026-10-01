@@ -1,5 +1,5 @@
 # Sprint 1
-- TB-17 Projekt Setup
+- TB-17 Projekt Setup (technische Aufgabe / Enabler)
 - TB-12 HTML Template
 - TB-13 Task anlegen
 - TB-14 Status ändern
@@ -9,15 +9,41 @@ Bearbeitungsstand von offen über in Bearbeitung bis erledigt verfolgen.
 
 ---
 
+## Übergreifende Anforderungen
+
+Regeln, die für mehrere Backlog Items gelten. Die Items verweisen auf die jeweils relevanten IDs.
+
+<a id="r1"></a>
+**R1 – Drei Bearbeitungsstände** *(fachlich)*
+Es gibt genau drei Status: „Offen“, „In Bearbeitung“ und „Erledigt“ – in dieser Reihenfolge.
+Betrifft: TB-12, TB-13, TB-14
+
+<a id="r2"></a>
+**R2 – Eine Aufgabe hat genau einen Status** *(fachlich)*
+Jede Aufgabe befindet sich zu jedem Zeitpunkt in genau einem Status und wird nur im zugehörigen Bereich angezeigt.
+Betrifft: TB-13, TB-14
+
+<a id="r3"></a>
+**R3 – Aufgabe besteht aus einem Titel** *(fachlich, Annahme – siehe [Entscheidung 1](#offene-fachliche-und-technische-entscheidungen))*
+Eine Aufgabe wird über ihren Titel erfasst und angezeigt.
+Betrifft: TB-13, TB-14
+
+<a id="r4"></a>
+**R4 – Technischer Rahmen** *(technisch)*
+Die Anwendung läuft direkt im Browser, ohne Build-Prozess, Framework oder Backend.
+Betrifft: TB-17, TB-12, TB-13, TB-14
+
+---
+
 ## TB-17 Projekt Setup
 
-> Hinweis: TB-17 ist eher ein technisches Enabler-Item als eine fachliche User Story.
-> Die Formulierung aus Sicht des Entwicklungsteams ist ein Vorschlag – das Team
-> entscheidet, ob es als Story oder als technische Aufgabe geführt wird.
+**Typ:** Technische Aufgabe / Enabler (keine User Story)
 
-**User Story**
-Als Entwicklungsteam möchten wir eine lauffähige Projektgrundlage haben,
-damit wir die Funktionen des Taskboards ohne weitere Vorarbeit umsetzen können.
+**Ziel**
+Eine lauffähige Projektgrundlage schaffen, damit die Funktionen des Taskboards
+ohne weitere Vorarbeit umgesetzt werden können.
+
+**Relevante Anforderungen:** [R4](#r4)
 
 **Akzeptanzkriterien**
 - [ ] Das Projekt enthält eine HTML-Datei, eine Stylesheet-Datei und eine Skript-Datei.
@@ -35,6 +61,8 @@ Als Nutzer möchte ich beim Öffnen des Taskboards die drei Bearbeitungsstände
 „Offen“, „In Bearbeitung“ und „Erledigt“ sehen,
 damit ich auf einen Blick erkenne, wie meine Aufgaben organisiert sind.
 
+**Relevante Anforderungen:** [R1](#r1), [R4](#r4)
+
 **Akzeptanzkriterien**
 - [ ] Die Seite zeigt einen Titel, der sie als Taskboard erkennbar macht.
 - [ ] Es gibt genau drei Bereiche (Spalten) mit den Überschriften „Offen“, „In Bearbeitung“ und „Erledigt“.
@@ -49,6 +77,8 @@ damit ich auf einen Blick erkenne, wie meine Aufgaben organisiert sind.
 **User Story**
 Als Nutzer möchte ich eine neue Aufgabe mit einem Titel erfassen,
 damit ich festhalten kann, was ich erledigen muss.
+
+**Relevante Anforderungen:** [R1](#r1), [R2](#r2), [R3](#r3), [R4](#r4)
 
 **Akzeptanzkriterien**
 - [ ] Wenn ich einen Titel eingebe und das Anlegen bestätige, erscheint die Aufgabe mit diesem Titel auf dem Board.
@@ -65,6 +95,8 @@ damit ich festhalten kann, was ich erledigen muss.
 Als Nutzer möchte ich den Status einer Aufgabe ändern,
 damit ich den Bearbeitungsfortschritt von offen über in Bearbeitung bis erledigt verfolgen kann.
 
+**Relevante Anforderungen:** [R1](#r1), [R2](#r2), [R3](#r3), [R4](#r4)
+
 **Akzeptanzkriterien**
 - [ ] Jede Aufgabe besitzt ein Auswahlfeld mit den Optionen „Offen“, „In Bearbeitung“ und „Erledigt“.
 - [ ] Das Auswahlfeld zeigt den aktuellen Status der Aufgabe an.
@@ -74,7 +106,7 @@ damit ich den Bearbeitungsfortschritt von offen über in Bearbeitung bis erledig
 
 ---
 
-## Offene Fragen für das Scrum Team
+## Offene fachliche und technische Entscheidungen
 
 1. **Felder einer Aufgabe:** Besteht eine Aufgabe nur aus einem Titel, oder gibt es weitere Angaben (z. B. Beschreibung)? Die Stories oben gehen nur von einem Titel aus.
 2. **Maximale Titellänge / Duplikate:** Gibt es eine Begrenzung? Sind gleichnamige Aufgaben erlaubt?
