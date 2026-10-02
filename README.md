@@ -30,7 +30,7 @@ Ein Nutzer kann eine eigene Aufgabe im Browser erfassen und ihren Bearbeitungsst
 
 ## Rahmen und bewusste Begrenzung
 
-- **Technik:** `index.html`, `style.css`, `app.js`; ohne Framework, Build-Prozess oder Backend.
+- **Technik:** `index.html`, `css/style.css`, `js/app.js`; ohne Framework, Build-Prozess oder Backend.
 - **Sprint-Umfang:** Aufgaben anzeigen, anlegen und zwischen drei Status-Spalten verschieben.
 - **Nachrangig:** Löschen und Speicherung über `localStorage`.
 - **Nicht vorgesehen:** Drag-and-drop, Login, Benutzerverwaltung, API oder aufwendiges Design.

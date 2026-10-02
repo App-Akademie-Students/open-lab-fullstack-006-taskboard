@@ -24,7 +24,7 @@ Jede Aufgabe befindet sich zu jedem Zeitpunkt in genau einem Status und wird nur
 Betrifft: TB-13, TB-14
 
 <a id="r3"></a>
-**R3 – Aufgabe besteht aus einem Titel** *(fachlich, Annahme – siehe [Entscheidung 1](#offene-fachliche-und-technische-entscheidungen))*
+**R3 – Aufgabe besteht aus einem Titel** *(fachlich, siehe [Entscheidung 1](#fachliche-und-technische-entscheidungen))*
 Eine Aufgabe wird über ihren Titel erfasst und angezeigt.
 Betrifft: TB-13, TB-14
 
@@ -106,11 +106,12 @@ damit ich den Bearbeitungsfortschritt von offen über in Bearbeitung bis erledig
 
 ---
 
-## Offene fachliche und technische Entscheidungen
+## Fachliche und technische Entscheidungen
 
-1. **Felder einer Aufgabe:** Besteht eine Aufgabe nur aus einem Titel, oder gibt es weitere Angaben (z. B. Beschreibung)? Die Stories oben gehen nur von einem Titel aus.
-2. **Maximale Titellänge / Duplikate:** Gibt es eine Begrenzung? Sind gleichnamige Aufgaben erlaubt?
-3. **Rückwärts-Statuswechsel:** Soll z. B. „Erledigt“ → „Offen“ erlaubt sein? (AK in TB-14 nimmt „ja“ an.)
+1. **Felder einer Aufgabe:** ✔ *Entschieden:* Eine Aufgabe besteht nur aus einem Titel.
+2. **Maximale Titellänge / Duplikate:** ✔ *Entschieden:* Gleichnamige Aufgaben sind erlaubt.
+   *Offen:* Gibt es eine maximale Titellänge?
+3. **Rückwärts-Statuswechsel:** ✔ *Entschieden:* Rückwärtswechsel (z. B. „Erledigt“ → „Offen“) sind erlaubt.
 4. **Datenverlust beim Neuladen:** `localStorage` ist laut README nachrangig. Ist es für Sprint 1 akzeptabel, dass Aufgaben nach einem Neuladen der Seite verloren gehen?
 5. **Rückmeldung bei leerer Eingabe:** Reicht es, dass nichts passiert, oder soll ein Hinweis erscheinen?
-6. **Dateistruktur:** Die README nennt `style.css` und `app.js`, im Projekt liegen sie in `css/` und `js/`. Welche Struktur gilt?
+6. **Dateistruktur:** ✔ *Entschieden:* Es gilt `index.html`, `css/style.css`, `js/app.js`.
