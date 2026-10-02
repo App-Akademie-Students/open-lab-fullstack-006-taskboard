@@ -47,6 +47,19 @@ Abgrenzung:
 
 ---
 
+## Nachweis Sprint 1
+
+| Item | Alle AK erfüllt | Tests bestanden (Chrome) | Von zweiter Person ausprobiert | Code manuell angeschaut | Eingecheckt auf `main` | Auf Taskboard „Done“ |
+|---|---|---|---|---|---|---|
+| TB-17 Projekt Setup | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
+| TB-12 HTML Template | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
+| TB-13 Task anlegen | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
+| TB-14 Status ändern | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
+
+Vom Team bestätigt am 02.10.2026. Testergebnisse siehe [testfaelle.md](testfaelle.md).
+
+---
+
 ## Entscheidungen des Scrum Teams
 
 1. **Browser:** ✔ *Entschieden:* Getestet wird im Chrome-Browser.

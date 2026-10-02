@@ -22,12 +22,12 @@
 
 ## TB-17 Projekt Setup
 
-- [ ] **T17-1** (AK 1)  
+- [x] **T17-1** (AK 1)  
   **Gegeben:** Projektordner  
   **Wenn:** ich den Inhalt ansehe  
   **Dann:** gibt es eine HTML-Datei, eine Stylesheet-Datei und eine Skript-Datei
 
-- [ ] **T17-2** (AK 2)  
+- [x] **T17-2** (AK 2)  
   **Gegeben:** HTML-Datei  
   **Wenn:** ich sie im Editor öffne  
   **Dann:** sind Stylesheet und Skript darin eingebunden
@@ -37,7 +37,7 @@
   **Wenn:** ich die Seite im Browser öffne  
   **Dann:** ist im Tab „Netzwerk“ der Entwicklertools zu sehen, dass Stylesheet und Skript ohne Fehler (kein 404) geladen werden
 
-- [ ] **T17-4** (AK 3)  
+- [x] **T17-4** (AK 3)  
   **Gegeben:** Projektordner  
   **Wenn:** ich `index.html` per Doppelklick öffne  
   **Dann:** wird die Seite angezeigt, ohne dass vorher ein Build-Befehl ausgeführt oder ein Server gestartet werden muss
@@ -47,7 +47,7 @@
   **Wenn:** ich die Browser-Konsole ansehe  
   **Dann:** erscheint keine Fehlermeldung
 
-- [ ] **T17-6** (AK 5)  
+- [x] **T17-6** (AK 5)  
   **Gegeben:** Projektordner  
   **Wenn:** ich `git status` und `git log` ausführe  
   **Dann:** sind alle Projektdateien eingecheckt und es gibt keine offenen Änderungen
@@ -195,7 +195,10 @@ erneut durchgeführt.
 
 **Durchgeführt nach TB-14:** T12-1 bis T12-5, T17-3, T17-5 – alle bestanden.
 Automatisiert durch Claude (AI) in Chrome 154 (headless) am 02.10.2026, nicht manuell.
-Das Team entscheidet, ob ein automatisierter Lauf als Regressionstest genügt.
+
+**Durchgeführt nach den Änderungen in `c17754c`** (Fokus nach Statuswechsel, Umbruch langer Titel):
+alle Testfälle von TB-17, TB-12, TB-13, TB-14 sowie SG-1 – alle bestanden.
+Vom Team im Chrome-Browser bestätigt am 02.10.2026.
 
 ---
 
@@ -203,7 +206,7 @@ Das Team entscheidet, ob ein automatisierter Lauf als Regressionstest genügt.
 
 Prüft am Ende des Sprints, ob das Increment das Sprint Goal erfüllt.
 
-- [ ] **SG-1**  
+- [x] **SG-1**  
   **Schritte:** Seite öffnen → „Präsentation vorbereiten“ anlegen → Status „In Bearbeitung“ → Status „Erledigt“  
   **Dann:** Die Aufgabe durchläuft sichtbar alle drei Bereiche und steht am Ende in „Erledigt“. Die Konsole zeigt keine Fehler.
 

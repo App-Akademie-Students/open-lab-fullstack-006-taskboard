@@ -46,11 +46,11 @@ ohne weitere Vorarbeit umgesetzt werden können.
 **Relevante Anforderungen:** [R4](#r4)
 
 **Akzeptanzkriterien**
-- [ ] Das Projekt enthält eine HTML-Datei, eine Stylesheet-Datei und eine Skript-Datei.
-- [ ] Stylesheet und Skript sind in der HTML-Datei eingebunden.
-- [ ] Die Seite lässt sich direkt im Browser öffnen, ohne Build-Prozess, Framework oder Backend.
-- [ ] Beim Öffnen der Seite erscheinen keine Fehlermeldungen in der Browser-Konsole.
-- [ ] Der Projektstand ist in der Versionsverwaltung eingecheckt.
+- [x] Das Projekt enthält eine HTML-Datei, eine Stylesheet-Datei und eine Skript-Datei.
+- [x] Stylesheet und Skript sind in der HTML-Datei eingebunden.
+- [x] Die Seite lässt sich direkt im Browser öffnen, ohne Build-Prozess, Framework oder Backend.
+- [x] Beim Öffnen der Seite erscheinen keine Fehlermeldungen in der Browser-Konsole.
+- [x] Der Projektstand ist in der Versionsverwaltung eingecheckt.
 
 ---
 
