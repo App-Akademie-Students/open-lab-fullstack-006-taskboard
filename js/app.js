@@ -42,6 +42,7 @@ function renderTasks() {
       .forEach((task) => {
         const item = document.createElement("li");
         item.className = "task";
+        item.dataset.taskId = task.id;
 
         const title = document.createElement("span");
         title.className = "task-title";
@@ -64,13 +65,18 @@ function addTask(title) {
 }
 
 function changeTaskStatus(taskId, newStatus) {
-  const task = tasks.find((t) => t.id === taskId);
+  const task = tasks.find((candidate) => candidate.id === taskId);
   if (!task) {
     return;
   }
 
   task.status = newStatus;
   renderTasks();
+
+  // Nach dem Neuzeichnen den Fokus wieder auf das Auswahlfeld der Aufgabe setzen
+  document
+    .querySelector(`.task[data-task-id="${taskId}"] .task-status`)
+    .focus();
 }
 
 taskForm.addEventListener("submit", (event) => {
