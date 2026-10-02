@@ -32,7 +32,7 @@
   **Wenn:** ich sie im Editor öffne  
   **Dann:** sind Stylesheet und Skript darin eingebunden
 
-- [ ] **T17-3** (AK 2)  
+- [x] **T17-3** (AK 2)  
   **Gegeben:** Stylesheet ist eingebunden  
   **Wenn:** ich die Seite im Browser öffne  
   **Dann:** ist im Tab „Netzwerk“ der Entwicklertools zu sehen, dass Stylesheet und Skript ohne Fehler (kein 404) geladen werden
@@ -42,7 +42,7 @@
   **Wenn:** ich `index.html` per Doppelklick öffne  
   **Dann:** wird die Seite angezeigt, ohne dass vorher ein Build-Befehl ausgeführt oder ein Server gestartet werden muss
 
-- [ ] **T17-5** (AK 4)  
+- [x] **T17-5** (AK 4)  
   **Gegeben:** Seite ist geöffnet  
   **Wenn:** ich die Browser-Konsole ansehe  
   **Dann:** erscheint keine Fehlermeldung
@@ -57,27 +57,27 @@
 
 ## TB-12 HTML Template
 
-- [ ] **T12-1** (AK 1)  
+- [x] **T12-1** (AK 1)  
   **Gegeben:** –  
   **Wenn:** ich die Seite öffne  
   **Dann:** ist ein Titel sichtbar, der die Seite als Taskboard erkennbar macht
 
-- [ ] **T12-2** (AK 2)  
+- [x] **T12-2** (AK 2)  
   **Gegeben:** –  
   **Wenn:** ich die Seite öffne  
   **Dann:** gibt es genau drei Bereiche mit den Überschriften „Offen“, „In Bearbeitung“ und „Erledigt“ (Schreibweise exakt)
 
-- [ ] **T12-3** (AK 3)  
+- [x] **T12-3** (AK 3)  
   **Gegeben:** –  
   **Wenn:** ich die Seite öffne  
   **Dann:** erscheinen die Bereiche in der Reihenfolge Offen → In Bearbeitung → Erledigt
 
-- [ ] **T12-4** (AK 4)  
+- [x] **T12-4** (AK 4)  
   **Gegeben:** –  
   **Wenn:** ich die Seite öffne  
   **Dann:** sind ein Eingabefeld und eine Schaltfläche zum Erfassen einer neuen Aufgabe sichtbar
 
-- [ ] **T12-5** (AK 5)  
+- [x] **T12-5** (AK 5)  
   **Gegeben:** Es sind keine Aufgaben vorhanden  
   **Wenn:** ich die Seite öffne  
   **Dann:** sind alle drei Bereiche sichtbar und leer
@@ -193,6 +193,10 @@ erneut durchgeführt.
 | TB-13 | alle Testfälle von TB-12, T17-5 |
 | TB-14 | alle Testfälle von TB-12 und TB-13, T17-5 |
 
+**Durchgeführt nach TB-14:** T12-1 bis T12-5, T17-3, T17-5 – alle bestanden.
+Automatisiert durch Claude (AI) in Chrome 154 (headless) am 02.10.2026, nicht manuell.
+Das Team entscheidet, ob ein automatisierter Lauf als Regressionstest genügt.
+
 ---
 
 ## Sprint-Goal-Test (End-to-End)
@@ -208,7 +212,7 @@ Prüft am Ende des Sprints, ob das Increment das Sprint Goal erfüllt.
 
 ## Offene Punkte für das Scrum Team
 
-1. **Browser:** In welchem Browser (bzw. welchen Browsern) wird getestet? (offen in der DoD)
+1. **Browser:** ✔ *Entschieden:* Getestet wird im Chrome-Browser (siehe [DoD](definition-of-done.md#entscheidungen-des-scrum-teams)).
 2. **Leerzeichen im Titel (T13-7):** Sollen Leerzeichen am Anfang und Ende entfernt werden? Das ist in den AK nicht festgelegt.
 3. **Neuladen der Seite:** Solange offene Frage 4 in `requirements.md` nicht entschieden ist, gibt es keinen Testfall dafür, ob Aufgaben nach F5 erhalten bleiben.
 4. **Hinweis bei leerer Eingabe:** Falls entschieden wird, dass ein Hinweis erscheinen soll (offene Frage 5), müssen T13-4 und T13-5 angepasst werden.

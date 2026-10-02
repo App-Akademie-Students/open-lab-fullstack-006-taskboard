@@ -30,13 +30,14 @@ Abgrenzung:
 ## 3. Test
 
 - [ ] Die Akzeptanzkriterien wurden manuell im Browser durchgespielt.
-- [ ] Getestet in mindestens einem aktuellen Browser (vom Team festzulegen, siehe offene Punkte).
+- [ ] Getestet in einem aktuellen Chrome-Browser (siehe [Entscheidung 1](#entscheidungen-des-scrum-teams)).
 - [ ] Mindestens eine zweite Person aus dem Team hat die Funktion ausprobiert.
 
 ## 4. Zusammenarbeit & Versionsverwaltung
 
 - [ ] Die Änderungen sind in Git eingecheckt, mit einer aussagekräftigen Commit-Nachricht, die die Item-ID enthält (z. B. `TB-13: Task anlegen`).
-- [ ] Der Code wurde von mindestens einer weiteren Person angeschaut (Review oder Pair Programming).
+- [ ] Die Änderungen sind direkt auf dem Hauptbranch `main` eingecheckt (keine Feature-Branches).
+- [ ] Der Code wurde von mindestens einer weiteren Person manuell angeschaut (gemeinsamer Blick auf den Code oder Pair Programming, kein formales Pull-Request-Review).
 - [ ] Das Item ist auf dem Sprint Backlog / Taskboard als „Done“ markiert.
 
 ## 5. Dokumentation
@@ -46,9 +47,12 @@ Abgrenzung:
 
 ---
 
+## Entscheidungen des Scrum Teams
+
+1. **Browser:** ✔ *Entschieden:* Getestet wird im Chrome-Browser.
+2. **Review:** ✔ *Entschieden:* Manuelles Review – ein gemeinsamer Blick auf den Code genügt, kein formales Review per Pull Request.
+3. **Branching:** ✔ *Entschieden:* Keine Branches – es wird direkt auf dem Hauptbranch gearbeitet.
+
 ## Offene Punkte für das Scrum Team
 
-1. **Browser:** In welchem Browser (bzw. welchen Browsern) wird getestet?
-2. **Review:** Reicht ein kurzer gemeinsamer Blick auf den Code, oder ist ein formales Review (z. B. Pull Request) gewünscht?
-3. **Branching:** Wird direkt auf dem Hauptbranch gearbeitet oder mit einem Branch pro Item?
-4. **Umfang für Sprint 1:** Sind alle Punkte für ein Lernprojekt angemessen, oder sollen einzelne gestrichen werden, um das Team nicht zu überlasten?
+1. **Umfang für Sprint 1:** Sind alle Punkte für ein Lernprojekt angemessen, oder sollen einzelne gestrichen werden, um das Team nicht zu überlasten?

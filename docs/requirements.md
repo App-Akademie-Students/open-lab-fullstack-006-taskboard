@@ -64,11 +64,11 @@ damit ich auf einen Blick erkenne, wie meine Aufgaben organisiert sind.
 **Relevante Anforderungen:** [R1](#r1), [R4](#r4)
 
 **Akzeptanzkriterien**
-- [ ] Die Seite zeigt einen Titel, der sie als Taskboard erkennbar macht.
-- [ ] Es gibt genau drei Bereiche (Spalten) mit den Überschriften „Offen“, „In Bearbeitung“ und „Erledigt“.
-- [ ] Die Bereiche erscheinen in der Reihenfolge Offen → In Bearbeitung → Erledigt.
-- [ ] Es gibt einen sichtbaren Bereich zum Erfassen einer neuen Aufgabe (Eingabefeld und Schaltfläche).
-- [ ] Ohne vorhandene Aufgaben sind alle drei Bereiche leer, aber sichtbar.
+- [x] Die Seite zeigt einen Titel, der sie als Taskboard erkennbar macht.
+- [x] Es gibt genau drei Bereiche (Spalten) mit den Überschriften „Offen“, „In Bearbeitung“ und „Erledigt“.
+- [x] Die Bereiche erscheinen in der Reihenfolge Offen → In Bearbeitung → Erledigt.
+- [x] Es gibt einen sichtbaren Bereich zum Erfassen einer neuen Aufgabe (Eingabefeld und Schaltfläche).
+- [x] Ohne vorhandene Aufgaben sind alle drei Bereiche leer, aber sichtbar.
 
 ---
 
@@ -81,11 +81,11 @@ damit ich festhalten kann, was ich erledigen muss.
 **Relevante Anforderungen:** [R1](#r1), [R2](#r2), [R3](#r3), [R4](#r4)
 
 **Akzeptanzkriterien**
-- [ ] Wenn ich einen Titel eingebe und das Anlegen bestätige, erscheint die Aufgabe mit diesem Titel auf dem Board.
-- [ ] Eine neu angelegte Aufgabe erscheint im Bereich „Offen“.
-- [ ] Nach dem Anlegen ist das Eingabefeld wieder leer.
-- [ ] Ist das Eingabefeld leer (oder enthält nur Leerzeichen), wird keine Aufgabe angelegt.
-- [ ] Mehrere Aufgaben können nacheinander angelegt werden und werden alle angezeigt.
+- [x] Wenn ich einen Titel eingebe und das Anlegen bestätige, erscheint die Aufgabe mit diesem Titel auf dem Board.
+- [x] Eine neu angelegte Aufgabe erscheint im Bereich „Offen“.
+- [x] Nach dem Anlegen ist das Eingabefeld wieder leer.
+- [x] Ist das Eingabefeld leer (oder enthält nur Leerzeichen), wird keine Aufgabe angelegt.
+- [x] Mehrere Aufgaben können nacheinander angelegt werden und werden alle angezeigt.
 
 ---
 
@@ -98,11 +98,11 @@ damit ich den Bearbeitungsfortschritt von offen über in Bearbeitung bis erledig
 **Relevante Anforderungen:** [R1](#r1), [R2](#r2), [R3](#r3), [R4](#r4)
 
 **Akzeptanzkriterien**
-- [ ] Jede Aufgabe besitzt ein Auswahlfeld mit den Optionen „Offen“, „In Bearbeitung“ und „Erledigt“.
-- [ ] Das Auswahlfeld zeigt den aktuellen Status der Aufgabe an.
-- [ ] Wähle ich einen anderen Status, erscheint die Aufgabe anschließend im entsprechenden Bereich und nicht mehr im vorherigen.
-- [ ] Jeder Status kann in jeden anderen geändert werden (auch zurück, z. B. von „Erledigt“ nach „Offen“).
-- [ ] Die Statusänderung einer Aufgabe beeinflusst keine anderen Aufgaben.
+- [x] Jede Aufgabe besitzt ein Auswahlfeld mit den Optionen „Offen“, „In Bearbeitung“ und „Erledigt“.
+- [x] Das Auswahlfeld zeigt den aktuellen Status der Aufgabe an.
+- [x] Wähle ich einen anderen Status, erscheint die Aufgabe anschließend im entsprechenden Bereich und nicht mehr im vorherigen.
+- [x] Jeder Status kann in jeden anderen geändert werden (auch zurück, z. B. von „Erledigt“ nach „Offen“).
+- [x] Die Statusänderung einer Aufgabe beeinflusst keine anderen Aufgaben.
 
 ---
 
